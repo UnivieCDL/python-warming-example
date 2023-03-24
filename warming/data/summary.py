@@ -9,6 +9,7 @@ class Summary:
     def prepare_data(self):
         """Here comes the documentation.
 
+        Some more docs.
         """
         data = pb.read_excel(self._filepath, sheet_name="Country Summaries")
         data = data.set_index("Country Name")
