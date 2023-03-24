@@ -39,6 +39,14 @@ class Summary:
         """
         return self._data["CH4C"]
 
+    def n2oc(self):
+        """Returns the data of `N2OC` values per capity per country.
+
+        :return: The `N2OC` data per capita per country.
+        :rtype: pandas.core.series.Series
+        """
+        return self._data["N2OC"]
+
     def co2y(self):
         """Returns the data of `CO2Y` values per capita per country per year
 
