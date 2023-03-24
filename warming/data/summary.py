@@ -30,3 +30,11 @@ class Summary:
         :rtype: pandas.core.series.Series
         """
         return self._data["CO2C"]
+
+    def ch4c(self):
+        """Returns the data of `CO2` values per capity per country.
+
+        :return: The `CH4C` data per capity per country.
+        :rtype: pandas.core.series.Series
+        """
+        return self._data["CH4C"]
