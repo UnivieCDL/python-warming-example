@@ -47,6 +47,7 @@ class Summary:
         """
         return self._data["N2OC"]
 
+
     def co2y(self):
         """Returns the data of `CO2Y` values per capita per country per year
 
